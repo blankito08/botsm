@@ -6,7 +6,7 @@ import requests
 from telebot.types import InlineKeyboardButton
 
 # Fillout Here The BotToken it gets from botfather further queries @riz4d 0n telegram
-bot = telebot.TeleBot('< BOT_TOKEN here >')
+bot = telebot.TeleBot('5682512128:AAHw8ANRW1PZi_Hj-cZ5pA8qmCNcezjLMUw')
 
 keyboard = telebot.types.ReplyKeyboardMarkup(resize_keyboard=True)
 keyboard.add(InlineKeyboardButton(text='Generate email'))
